@@ -1,0 +1,64 @@
+body{
+    background-image: 10px;
+    padding:50px;
+}
+.container{
+    max-width: 700px;
+    margin:0 auto;
+    padding:50px;
+    background-color: rgb(204, 198, 198);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.card-body{
+    max-width: 700px;
+    max-height: 200px;
+    margin:0 auto;
+    padding:50px;
+    background-color: rgb(245, 243, 243);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    font-size: 1.2em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: h#c0392b;
+    font-weight: bold;
+    padding-left: 40px;
+
+}
+.card-header{
+    font-size: 1.9 em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #070303;
+    font-weight: bold;
+    padding-left: 40px;
+
+}
+.btn{
+    width: 10em;
+    height: 2.5em;
+    background-color: #bbb5b5;
+    color: #080808; 
+    border-radius: 10px;
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #b8b8b8;
+  color: white;
+}
